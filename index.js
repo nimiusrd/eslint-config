@@ -108,7 +108,7 @@ module.exports = {
     'no-extend-native': 'error',
     'no-extra-bind': 'error',
     'no-extra-label': 'error',
-    'no-extra-parens': ['error', 'all', { 'returnAssign': false, 'nestedBinaryExpressions': false }],
+    'no-extra-parens': ['error', 'all', {'ignoreJSX': 'multi-line', 'nestedBinaryExpressions': false}],
     'no-floating-decimal': 'error',
     'no-implicit-coercion': 'error',
     'no-implicit-globals': 'error',
