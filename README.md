@@ -17,7 +17,7 @@ npm install @nimiusrd/eslint-config --save-dev
 ```js
 {
   extends: [
-    'nimiusrd'
+    '@nimiusrd'
   ]
 }
 ```
