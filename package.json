@@ -1,18 +1,26 @@
 {
   "name": "@nimiusrd/eslint-config",
-  "version": "1.2.0",
-  "main": "index.js",
+  "version": "1.3.0",
   "repository": "git@github.com:nimiusrd/eslint-config-nimiusrd.git",
-  "author": "Yudai Udagawa <nimius.rd@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^5.0.0"
+  "author": "Yudai Udagawa <nimius.rd@gmail.com>",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "package.json"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "eslint-find-rules": "eslint-find-rules -ud --option index.js"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
     "eslint-find-rules": "^3.3.1"
   },
-  "scripts": {
-    "eslint-find-rules": "eslint-find-rules -ud --option index.js"
+  "peerDependencies": {
+    "eslint": "^6.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,5 +1,7 @@
 # @nimiusrd/eslint-config
 
+sharable ESLint config
+
 ## Installation
 ```bash
 yarn add -D @nimiusrd/eslint-config
