@@ -1,12 +1,12 @@
-# eslint-config-nimiusrd
+# @nimiusrd/eslint-config
 
 ## Installation
 ```bash
-yarn add -D nimiusrd/eslint-config-nimiusrd.git
+yarn add -D @nimiusrd/eslint-config
 ```
 or
 ```bash
-npm install nimiusrd/eslint-config-nimiusrd.git --save-dev
+npm install @nimiusrd/eslint-config --save-dev
 ```
 
 ## Usage
