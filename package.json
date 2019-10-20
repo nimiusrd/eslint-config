@@ -5,12 +5,11 @@
   "repository": "git@github.com:nimiusrd/eslint-config-nimiusrd.git",
   "author": "Yudai Udagawa <nimius.rd@gmail.com>",
   "license": "MIT",
-  "private": true,
   "peerDependencies": {
     "eslint": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-find-rules": "^3.3.1"
   },
   "scripts": {
