@@ -16,12 +16,6 @@
   "scripts": {
     "eslint-find-rules": "eslint-find-rules -ud --option index.js"
   },
-  "devDependencies": {
-    "eslint": "^6.0.1"
-  },
-  "peerDependencies": {
-    "eslint": "^6.0.0"
-  },
   "publishConfig": {
     "access": "public"
   }
